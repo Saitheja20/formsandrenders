@@ -1,0 +1,30 @@
+<div class="form-body">
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <div>
+    <p class="top-text">search a family</p>
+  </div>
+<div>
+  <label for="familyId" class="form-label">Family ID</label>
+  <input type="number" class="form-control" formControlName="familyId" placeholder="Enter family Id">
+</div>
+<div>
+  <label for="personId" class="form-label">Person ID</label>
+  <input type="number" class="form-control" formControlName="personId" placeholder="Enter Person Id">
+</div>
+<div>
+  <label for="firstName" class="form-label">First Name</label>
+  <input type="text" class="form-control" formControlName="firstName" placeholder="Enter First Name">
+</div>
+<div>
+  <label for="LastName" class="form-label">Last Name</label>
+  <input type="text" class="form-control" formControlName="lastName" placeholder="Enter Last Name">
+</div>
+<div>
+  <label for="homePhone" class="form-label">Home Phone:</label>
+  <input type="number" class="form-control" formControlName="homePhone" placeholder="Enter Home Phone Number">
+</div>
+<div>
+  <button type="submit" class="btn btn-primary" > Search</button>
+</div>
+</form>
+</div>

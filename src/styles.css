@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* Example in your CSS files */
+
+body {
+  -webkit-text-size-adjust: 100%;
+}
+
+.my-element {
+  transition: all 0.3s ease;
+}
+
+.columns {
+  column-gap: 1em;
+}
