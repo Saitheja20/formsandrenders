@@ -4,11 +4,12 @@ import { FormBuilder,FormGroup,FormControl, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { FormDataService } from '../form-data.service';
 // import { BrowserModule } from '@angular/platform-browser';
-import { ReactiveFormsModule } from '@angular/forms'; // Import ReactiveFormsModule
+import { ReactiveFormsModule } from '@angular/forms';
+import { ResulttableComponent } from "../resulttable/resulttable.component"; // Import ReactiveFormsModule
 @Component({
   selector: 'app-searchform',
   standalone: true,
-  imports: [CommonModule,ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, ResulttableComponent],
   templateUrl: './searchform.component.html',
   styleUrl: './searchform.component.css'
 })
@@ -46,7 +47,7 @@ submit(){
     this.firstName+" last name "+this.lastName+" homephone "+this.homePhone+" ."
   );
 
-  this.router.navigate(['resulttable']);
+  // this.router.navigate(['resulttable']);
 
 
 }

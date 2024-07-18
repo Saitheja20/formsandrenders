@@ -1,9 +1,29 @@
-<p>resulttable works!</p>
-<div>
+<!-- <p>resulttable works!</p> -->
+<!-- <div>
   <p>Received Form Data:</p>
   <p>Family ID: {{ formData.familyId }}</p>
   <p>Person ID: {{ formData.personId }}</p>
   <p>First Name: {{ formData.firstName }}</p>
   <p>Last Name: {{ formData.lastName }}</p>
   <p>Home Phone: {{ formData.homePhone }}</p>
-</div>
+</div> -->
+<table>
+  <thead>
+    <tr>
+      <td>Family Id</td>
+      <td>Person Id</td>
+      <td> First Name</td>
+      <td>Last Name</td>
+      <td>Home Phone</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{formData.familyId}}</td>
+      <td>{{formData.personId }}</td>
+      <td>{{formData.firstName}}</td>
+      <td>{{formData.lastName}}</td>
+      <td>{{formData.homePhone}}</td>
+    </tr>
+  </tbody>
+</table>

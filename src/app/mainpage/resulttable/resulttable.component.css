@@ -1,0 +1,14 @@
+
+table{
+  margin: auto;
+  margin-top: 3rem;
+  border: 2px solid black;
+}
+thead{
+  background-color: skyblue;
+  color: black;
+}
+tbody{
+  background-color: rgb(225, 225, 225);
+  color: blue;
+}
